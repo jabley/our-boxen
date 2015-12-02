@@ -1,0 +1,31 @@
+# Try to maintain ssh sessions on OS X
+ServerAliveInterval 300
+
+Compression yes
+
+#
+# Cornerhost
+#
+Host va
+  HostName vanadium.sabren.com
+
+#
+# Github
+#
+Host github.com
+    User git
+    Hostname github.com
+    IdentityFile ~/.ssh/id_rsa
+
+#
+# BitBucket
+#
+Host bb
+  HostName bitbucket.org
+  User hg
+
+#
+# Fallback
+#
+Host *
+  User jabley

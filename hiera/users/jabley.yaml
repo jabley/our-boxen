@@ -1,0 +1,122 @@
+---
+boxen::security::screensaver_delay_sec: '0'
+
+boxen::personal::homebrew_packages:
+  - android-sdk
+  - ascii
+  - cabal-install
+  - cdrtools
+  - cloc
+  - cmake
+  - dos2unix
+  - ec2-api-tools
+  - gettext
+  - ghc
+  - glew
+  - glm
+  - gmp
+  - gnu-typist
+  - groovy
+  - id3tool
+  - iperf
+  - jpeg
+  - lame
+  - logstalgia
+  - luajit
+  - maven
+  - md5sha1sum
+  - mercurial
+  - mobile-shell
+  - ocaml
+  - oniguruma
+  - pandoc
+  - pcre
+  - pidof
+  - pkg-config
+  - play22
+  - potrace
+  - postgresql
+  - proctools
+  - protobuf
+  - python3
+  - rust
+  - sdl
+  - sdl_image
+  - shellcheck
+  - sloccount
+  - smartmontools
+  - terraform
+  - tesseract
+  - unrar
+  - valgrind
+  - wget
+  - x264
+  - xvid
+  - yasm
+  # Other stuff  
+  - ansible
+  - bash-completion
+  - curl
+  - go
+  - gpg-agent
+  - graphviz
+  - heroku-toolbelt
+  - httperf
+  - leiningen
+  - lynx
+  - nmap
+  - p7zip
+  - parallel
+  - pbzip2
+  - pigz
+  - pngcrush
+  - pv
+  - sbt
+  - scala
+  - tarsnap
+  - tree
+  - the_platinum_searcher
+  - tmux
+  - vegeta
+  - wrk
+  - youtube-dl
+
+boxen::personal::includes:
+  - osx::finder::empty_trash_securely
+  - osx::finder::show_all_on_desktop
+  - osx::finder::show_hidden_files
+  - osx::finder::unhide_library
+  - osx::global::expand_print_dialog
+  - osx::global::expand_save_dialog
+  - osx::no_network_dsstores
+
+boxen::personal::osx_apps:
+  - 1password
+  - adium
+  - alfred
+  - android-file-transfer
+  - caffeine
+  - dockertoolbox
+  - dropbox
+  - emacs
+  - evernote
+  - firefox
+  - flux
+  - google-chrome
+  - google-drive
+  - imagealpha
+  - imageoptim
+  - licecap
+  - paparazzi
+  - rowanj-gitx
+  - scala-ide
+  - skype
+  - sonic-pi
+  - spotify
+  - sublime-text
+  - torbrowser
+  - transmission
+  - vlc
+  - xbench
+
+hub::alias_hub_to_git: false
