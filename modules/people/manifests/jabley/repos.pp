@@ -10,13 +10,11 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/jabley",
     "${people::jabley::home_projects}/kelseyhightower",
     "${people::jabley::home_projects}/mattbostock",
-    "${people::jabley::home_projects}/mitchellh",
     "${people::jabley::home_projects}/mozilla-services",
     "${people::jabley::home_projects}/nginx",
     "${people::jabley::home_projects}/omniti-labs",
     "${people::jabley::home_projects}/openregister",
     "${people::jabley::home_projects}/real-logic",
-    "${people::jabley::home_projects}/revel",
     "${people::jabley::home_projects}/robyoung",
     ]:
     ensure => directory,
@@ -107,7 +105,6 @@ class people::jabley::repos {
     'omniti-labs/reconnoiter',
     'openregister/register',
     'real-logic/Aeron',
-    'revel/revel',
     'robyoung/http2play',
     ]:
   }
