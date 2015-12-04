@@ -72,17 +72,18 @@ class people::jabley(
 #    refreshonly => true,
 #  }
 
-#  exec { 'install_go_tools':
-#   environment => ["GOPATH=${home}/gocode"],
-#    command => 'go get -u golang.org/x/tools/cmd/cover \
-#                && go get -u golang.org/x/tools/cmd/godoc \
-#                && go get -u golang.org/x/tools/cmd/present \
-#                && go get -u golang.org/x/tools/cmd/vet \
-#                && go get -u golang.org/x/tools/cmd/goimports \
-#                && go get -u github.com/jabley/train/cmd/train \
-#                && go get -u github.com/golang/lint/golint \
-#                '
-#  }
+  exec { 'install_go_tools':
+   environment => ["GOPATH=${home}/gocode"],
+    command => 'go get golang.org/x/tools/cmd/cover \
+                && go get golang.org/x/tools/cmd/godoc \
+                && go get golang.org/x/tools/cmd/present \
+                && go get golang.org/x/tools/cmd/vet \
+                && go get golang.org/x/tools/cmd/goimports \
+                && go get github.com/bradfitz/http2/h2i \
+                && go get github.com/jabley/train/cmd/train \
+                && go get github.com/golang/lint/golint \
+                '
+  }
 
   # Settings from puppet-osx
   class { 'osx::dock::position':
