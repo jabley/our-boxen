@@ -2,8 +2,6 @@ class people::jabley(
   $node_version = '0.10.36',
 ) {
 
-  include brewcask
-
   class { 'vagrant':
     version => '1.7.4',
     completion => true,
