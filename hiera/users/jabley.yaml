@@ -10,6 +10,7 @@ boxen::personal::homebrew_packages:
   - cmake
   - dos2unix
   - ec2-api-tools
+  - ffmpeg
   - gettext
   - ghc
   - glew
