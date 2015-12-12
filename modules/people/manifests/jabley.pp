@@ -70,7 +70,7 @@ class people::jabley(
 #    refreshonly => true,
 #  }
 
-  Package["go"] -> exec { 'install_go_tools':
+  Package['go'] -> exec { 'install_go_tools':
    environment => ["GOPATH=${home}/gocode"],
     command => 'go get golang.org/x/tools/cmd/cover \
                 && go get golang.org/x/tools/cmd/godoc \
