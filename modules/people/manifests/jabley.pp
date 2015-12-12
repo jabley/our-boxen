@@ -70,6 +70,20 @@ class people::jabley(
 #    refreshonly => true,
 #  }
 
+  package { 'java':
+    provider => 'brewcask',
+  } -> package {
+    [
+      'ec2-api-tools',
+      'maven',
+      'scala',
+      'sbt',
+      'android-sdk',
+    ]:
+    ensure   => latest,
+    provider => 'homebrew',
+  }
+
   Package['go'] -> exec { 'install_go_tools':
    environment => ["GOPATH=${home}/gocode"],
     command => 'go get golang.org/x/tools/cmd/cover \

@@ -2,14 +2,12 @@
 boxen::security::screensaver_delay_sec: '0'
 
 boxen::personal::homebrew_packages:
-  - android-sdk
   - ascii
   - cabal-install
   - cdrtools
   - cloc
   - cmake
   - dos2unix
-  - ec2-api-tools
   - ffmpeg
   - gettext
   - ghc
@@ -24,7 +22,6 @@ boxen::personal::homebrew_packages:
   - lame
   - logstalgia
   - luajit
-  - maven
   - md5sha1sum
   - mercurial
   - mobile-shell
@@ -72,8 +69,6 @@ boxen::personal::homebrew_packages:
   - pigz
   - pngcrush
   - pv
-  - sbt
-  - scala
   - tarsnap
   - tree
   - the_platinum_searcher
@@ -107,7 +102,6 @@ boxen::personal::osx_apps:
   - google-drive
   - imagealpha
   - imageoptim
-  - java
   - licecap
   - paparazzi
   - rowanj-gitx
