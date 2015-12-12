@@ -78,6 +78,7 @@ boxen::personal::homebrew_packages:
   - youtube-dl
 
 boxen::personal::includes:
+  - osx::dock::autohide
   - osx::finder::empty_trash_securely
   - osx::finder::show_all_on_desktop
   - osx::finder::show_hidden_files
