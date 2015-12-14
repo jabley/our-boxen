@@ -2,6 +2,7 @@ class people::jabley::repos {
 
   file {[
     "${people::jabley::home_projects}/MastodonC",
+    "${people::jabley::home_projects}/adrianco",
     "${people::jabley::home_projects}/camlistore",
     "${people::jabley::home_projects}/circonus-labs",
     "${people::jabley::home_projects}/clojure",
@@ -61,6 +62,7 @@ class people::jabley::repos {
 
   github {[
     'MastodonC/nhs-prescription-analytics',
+    'adrianco/spigo',
     'camlistore/camlistore',
     'circonus-labs/fq',
     'circonus-labs/libmtev',
