@@ -1,6 +1,7 @@
 class people::jabley::repos {
 
   file {[
+    "${people::jabley::home_projects}/CausalityLtd",
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/adrianco",
     "${people::jabley::home_projects}/camlistore",
@@ -61,6 +62,7 @@ class people::jabley::repos {
   }
 
   github {[
+    'CausalityLtd/ponyc',
     'MastodonC/nhs-prescription-analytics',
     'adrianco/spigo',
     'camlistore/camlistore',
