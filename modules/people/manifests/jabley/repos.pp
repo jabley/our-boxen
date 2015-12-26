@@ -19,6 +19,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/openregister",
     "${people::jabley::home_projects}/real-logic",
     "${people::jabley::home_projects}/robyoung",
+    "${people::jabley::home_projects}/rust-lang",
     ]:
     ensure => directory,
   }
@@ -112,6 +113,7 @@ class people::jabley::repos {
     'openregister/register',
     'real-logic/Aeron',
     'robyoung/http2play',
+    'rust-lang/rust',
     ]:
   }
 }
