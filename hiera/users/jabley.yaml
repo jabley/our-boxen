@@ -25,6 +25,8 @@ boxen::personal::homebrew_packages:
   - md5sha1sum
   - mercurial
   - mobile-shell
+  - multirust
+  - nasm
   - ocaml
   - oniguruma
   - pandoc
@@ -37,7 +39,7 @@ boxen::personal::homebrew_packages:
   - proctools
   - protobuf
   - python3
-  - rust
+  - qemu
   - sdl
   - sdl_image
   - shellcheck
@@ -49,6 +51,7 @@ boxen::personal::homebrew_packages:
   - valgrind
   - wget
   - x264
+  - xorriso
   - xvid
   - yasm
   # Other stuff  
