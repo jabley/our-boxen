@@ -2,6 +2,7 @@ class people::jabley::repos {
 
   file {[
     "${people::jabley::home_projects}/CausalityLtd",
+    "${people::jabley::home_projects}/DigitalInnovation",
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/adrianco",
     "${people::jabley::home_projects}/camlistore",
@@ -64,6 +65,18 @@ class people::jabley::repos {
 
   github {[
     'CausalityLtd/ponyc',
+    'DigitalInnovation/API-AuthServer',
+    'DigitalInnovation/MCP-Proxy',
+    'DigitalInnovation/NORTH-loyalty-services',
+    'DigitalInnovation/fear-core',
+    'DigitalInnovation/fear-core-app',
+    'DigitalInnovation/fear-core-serve',
+    'DigitalInnovation/fear-core-tasks',
+    'DigitalInnovation/fear-core-ui',
+    'DigitalInnovation/fear-sdk',
+    'DigitalInnovation/shop-commerce',
+    'DigitalInnovation/boss-stocklocator-automation',
+    'DigitalInnovation/boss-stocklocator',
     'MastodonC/nhs-prescription-analytics',
     'adrianco/spigo',
     'camlistore/camlistore',
