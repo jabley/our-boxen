@@ -66,6 +66,10 @@ class people::jabley::repos {
   github {[
     'CausalityLtd/ponyc',
     'DigitalInnovation/API-AuthServer',
+    'DigitalInnovation/boss-click-and-collect',
+    'DigitalInnovation/boss-lockers-admin',
+    'DigitalInnovation/boss-sppd-engine',
+    'DigitalInnovation/boss-sppd-webapp',
     'DigitalInnovation/boss-stocklocator-automation',
     'DigitalInnovation/boss-stocklocator',
     'DigitalInnovation/fear-core',
