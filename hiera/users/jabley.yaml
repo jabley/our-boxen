@@ -120,6 +120,8 @@ boxen::personal::osx_apps:
   - torbrowser
   - transmission
   - vlc
+  - virtualbox
+  - virtualbox-extension-pack
   - xbench
 
 hub::alias_hub_to_git: false
