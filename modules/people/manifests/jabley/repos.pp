@@ -67,6 +67,7 @@ class people::jabley::repos {
     'CausalityLtd/ponyc',
     'DigitalInnovation/API-AuthServer',
     'DigitalInnovation/boss-click-and-collect',
+    'DigitalInnovation/boss-click-and-collect-admin',
     'DigitalInnovation/boss-lockers-admin',
     'DigitalInnovation/boss-sppd-engine',
     'DigitalInnovation/boss-sppd-webapp',
