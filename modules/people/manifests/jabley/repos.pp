@@ -82,6 +82,7 @@ class people::jabley::repos {
     'DigitalInnovation/MCP-Proxy',
     'DigitalInnovation/NORTH-loyalty-services',
     'DigitalInnovation/shop-commerce',
+    'DigitalInnovation/shop-UX',
     'DigitalInnovation/react-pdp-prototype',
     'MastodonC/nhs-prescription-analytics',
     'adrianco/spigo',
