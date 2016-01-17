@@ -1,5 +1,5 @@
 class people::jabley(
-  $node_version = '0.10.36',
+  $node_version = '4.2.4',
 ) {
 
   class { 'vagrant':
@@ -26,7 +26,8 @@ class people::jabley(
 
   class { 'nodejs::global': version => $node_version }
 
-  nodejs::version { '0.12.0': }
+  nodejs::version { '0.12.0': ensure => absent }
+  nodejs::version { '0.10.36': ensure => absent }
   nodejs::version { '0.8.26': ensure => absent }
 
   $home = "/Users/${::luser}"
