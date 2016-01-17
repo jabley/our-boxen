@@ -30,6 +30,30 @@ class people::jabley(
   nodejs::version { '0.10.36': }
   nodejs::version { '0.8.28': }
 
+  npm_module { "json for node ${node_version}":
+      module       => 'json',
+      version      => '~> 9.0.3',
+      node_version => $node_version,
+  }
+
+  npm_module { "grunt-cli for node ${node_version}":
+      module       => 'grunt-cli',
+      version      => '~> 0.1.13',
+      node_version => $node_version,
+  }
+
+  npm_module { "gulp for node ${node_version}":
+      module       => 'gulp',
+      version      => '~> 3.9.0',
+      node_version => $node_version,
+  }
+
+  npm_module { "keybase-installer for node ${node_version}":
+      module       => 'keybase-installer',
+      version      => '~> 1.0.3',
+      node_version => $node_version,
+  }
+
   $home = "/Users/${::luser}"
   $home_projects = "${home}/Projects"
 
