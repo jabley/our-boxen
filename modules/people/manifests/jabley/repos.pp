@@ -1,18 +1,18 @@
 class people::jabley::repos {
 
   file {[
-    "${people::jabley::home_projects}/CausalityLtd",
-    "${people::jabley::home_projects}/DigitalInnovation",
-    "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/adrianco",
     "${people::jabley::home_projects}/camlistore",
+    "${people::jabley::home_projects}/CausalityLtd",
     "${people::jabley::home_projects}/circonus-labs",
     "${people::jabley::home_projects}/clojure",
     "${people::jabley::home_projects}/coreos",
+    "${people::jabley::home_projects}/DigitalInnovation",
     "${people::jabley::home_projects}/ebmdatalab",
     "${people::jabley::home_projects}/fullstackio",
     "${people::jabley::home_projects}/jabley",
     "${people::jabley::home_projects}/kelseyhightower",
+    "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/mattbostock",
     "${people::jabley::home_projects}/mozilla-services",
     "${people::jabley::home_projects}/nginx",
