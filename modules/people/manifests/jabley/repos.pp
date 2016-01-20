@@ -21,6 +21,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/real-logic",
     "${people::jabley::home_projects}/robyoung",
     "${people::jabley::home_projects}/rust-lang",
+    "${people::jabley::home_projects}/VividCortex",
     ]:
     ensure => directory,
   }
@@ -134,6 +135,7 @@ class people::jabley::repos {
     'real-logic/Aeron',
     'robyoung/http2play',
     'rust-lang/rust',
+    'VividCortex/go-database-sql-tutorial',
     ]:
   }
 }
