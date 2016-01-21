@@ -84,6 +84,7 @@ class people::jabley::repos {
     'DigitalInnovation/NORTH-loyalty-services',
     'DigitalInnovation/shop-commerce',
     'DigitalInnovation/shop-UX',
+    'DigitalInnovation/SpringMustacheView',
     'DigitalInnovation/react-pdp-prototype',
     'MastodonC/nhs-prescription-analytics',
     'adrianco/spigo',
