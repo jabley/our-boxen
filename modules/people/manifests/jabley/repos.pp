@@ -81,6 +81,7 @@ class people::jabley::repos {
     'DigitalInnovation/fear-core-ui',
     'DigitalInnovation/fear-sdk',
     'DigitalInnovation/MCP-Proxy',
+    'DigitalInnovation/mns-devops-docker',
     'DigitalInnovation/NORTH-loyalty-services',
     'DigitalInnovation/shop-commerce',
     'DigitalInnovation/shop-UX',
