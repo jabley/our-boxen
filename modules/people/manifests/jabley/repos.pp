@@ -83,6 +83,7 @@ class people::jabley::repos {
     'DigitalInnovation/MCP-Proxy',
     'DigitalInnovation/mns-devops-docker',
     'DigitalInnovation/NORTH-loyalty-services',
+    'DigitalInnovation/pattern-library',
     'DigitalInnovation/shop-commerce',
     'DigitalInnovation/shop-UX',
     'DigitalInnovation/SpringMustacheView',
