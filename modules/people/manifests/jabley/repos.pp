@@ -116,6 +116,7 @@ class people::jabley::repos {
     'jabley/gojsonschema',
     'jabley/golang-challenge-1',
     'jabley/gom',
+    'jabley/government-service-design-manual',
     'jabley/homebrew',
     'jabley/jargone',
     'jabley/markdown',
