@@ -95,7 +95,6 @@ boxen::personal::osx_apps:
   - adium
   - alfred
   - android-file-transfer
-  - caffeine
   - dockertoolbox
   - dropbox
   - emacs
@@ -106,6 +105,7 @@ boxen::personal::osx_apps:
   - google-drive
   - imagealpha
   - imageoptim
+  - keepingyouawake
   - kindle
   - licecap
   - paparazzi
