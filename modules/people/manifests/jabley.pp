@@ -19,8 +19,6 @@ class people::jabley(
 
 #  class { 'git': version => '2.6.3' }
 
-  homebrew::tap { 'homebrew/science': }
-
   class { 'nodejs::global': version => $node_version }
 
   nodejs::version { '0.12.0': }
