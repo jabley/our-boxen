@@ -67,6 +67,7 @@ boxen::personal::homebrew_packages:
   - lynx
   - nmap
   - p7zip
+  - packer
   - parallel
   - pbzip2
   - pigz

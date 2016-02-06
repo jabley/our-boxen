@@ -21,9 +21,6 @@ class people::jabley(
 
   homebrew::tap { 'homebrew/science': }
 
-  homebrew::tap { 'homebrew/binary': }
-  package { 'packer': }
-
   class { 'nodejs::global': version => $node_version }
 
   nodejs::version { '0.12.0': }
