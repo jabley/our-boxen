@@ -2,6 +2,7 @@ class people::jabley::repos {
 
   file {[
     "${people::jabley::home_projects}/adrianco",
+    "${people::jabley::home_projects}/alphagov",
     "${people::jabley::home_projects}/camlistore",
     "${people::jabley::home_projects}/CausalityLtd",
     "${people::jabley::home_projects}/circonus-labs",
@@ -65,6 +66,7 @@ class people::jabley::repos {
   }
 
   github {[
+    'alphagov/router',
     'CausalityLtd/ponyc',
     'DigitalInnovation/API-AuthServer',
     'DigitalInnovation/boss-click-and-collect',
