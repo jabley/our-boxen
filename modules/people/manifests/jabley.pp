@@ -90,6 +90,8 @@ class people::jabley(
 #    refreshonly => true,
 #  }
 
+  homebrew::tap { 'olleolleolle/homebrew-adr-tools': }
+
   package { 'java':
     provider => 'brewcask',
   } -> package {
