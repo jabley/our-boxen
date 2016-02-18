@@ -131,4 +131,13 @@ class people::jabley(
 #  sysctl::set { 'kern.maxfilesperproc':
 #    value => '16384'
 #  }
+
+  # Temporary workplace to remove packages from all machines.
+  package { [
+      'nasm',
+      'qemu',
+      'xorriso',
+    ]:
+    ensure => absent,
+  }
 }
