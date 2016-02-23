@@ -87,6 +87,7 @@ class people::jabley::repos {
     'DigitalInnovation/MSSpringCommerce',
     'DigitalInnovation/NORTH-loyalty-services',
     'DigitalInnovation/pattern-library',
+    'DigitalInnovation/shop-assembler',
     'DigitalInnovation/shop-commerce',
     'DigitalInnovation/shop-UX',
     'DigitalInnovation/SpringMustacheView',
