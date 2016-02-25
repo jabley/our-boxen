@@ -91,6 +91,7 @@ class people::jabley::repos {
     'DigitalInnovation/shop-commerce',
     'DigitalInnovation/shop-UX',
     'DigitalInnovation/SpringMustacheView',
+    'DigitalInnovation/styleguides',
     'DigitalInnovation/react-pdp-prototype',
     'MastodonC/nhs-prescription-analytics',
     'adrianco/spigo',
