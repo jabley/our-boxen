@@ -86,6 +86,7 @@ class people::jabley::repos {
     'DigitalInnovation/mns-devops-docker',
     'DigitalInnovation/MSSpringCommerce',
     'DigitalInnovation/NORTH-loyalty-services',
+    'DigitalInnovation/ops-manual',
     'DigitalInnovation/pattern-library',
     'DigitalInnovation/shop-assembler',
     'DigitalInnovation/shop-commerce',
