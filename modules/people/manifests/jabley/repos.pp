@@ -66,6 +66,7 @@ class people::jabley::repos {
   }
 
   github {[
+    'alphagov/govuk_frontend_toolkit',
     'alphagov/router',
     'CausalityLtd/ponyc',
     'DigitalInnovation/API-AuthServer',
