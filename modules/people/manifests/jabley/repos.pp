@@ -89,6 +89,7 @@ class people::jabley::repos {
     'DigitalInnovation/NORTH-loyalty-services',
     'DigitalInnovation/ops-manual',
     'DigitalInnovation/orion-mvp-assembler',
+    'DigitalInnovation/orion-mvp-service',
     'DigitalInnovation/pattern-library',
     'DigitalInnovation/shop-assembler',
     'DigitalInnovation/shop-commerce',
