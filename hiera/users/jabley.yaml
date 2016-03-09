@@ -39,7 +39,6 @@ boxen::personal::homebrew_packages:
   - postgresql
   - proctools
   - protobuf
-  - pyenv-virtualenvwrapper
   - python3
   - sdl
   - sdl_image
