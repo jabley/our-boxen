@@ -70,6 +70,7 @@ class people::jabley::repos {
     'alphagov/govuk_frontend_toolkit',
     'alphagov/router',
     'CausalityLtd/ponyc',
+    'DigitalInnovation/akamai-rules-validation',
     'DigitalInnovation/API-AuthServer',
     'DigitalInnovation/boss-click-and-collect',
     'DigitalInnovation/boss-click-and-collect-admin',
