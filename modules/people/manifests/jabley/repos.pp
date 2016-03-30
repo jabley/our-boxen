@@ -125,6 +125,7 @@ class people::jabley::repos {
     'jabley/data-anonymization',
     'jabley/elasticsearch',
     'jabley/elephantdb',
+    'jabley/faraday_middleware',
     'jabley/forcomp',
     'jabley/fpinscala-exercises',
     'jabley/gmail-britta',
