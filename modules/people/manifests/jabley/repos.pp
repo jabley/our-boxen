@@ -96,6 +96,7 @@ class people::jabley::repos {
     'DigitalInnovation/orion-mvp-assembler',
     'DigitalInnovation/orion-mvp-service',
     'DigitalInnovation/pattern-library',
+    'DigitalInnovation/people',
     'DigitalInnovation/shop-assembler',
     'DigitalInnovation/shop-commerce',
     'DigitalInnovation/shop-UX',
