@@ -69,6 +69,7 @@ class people::jabley::repos {
 
   github {[
     'alphagov/govuk_frontend_toolkit',
+    'alphagov/metadata-api',
     'alphagov/router',
     'CausalityLtd/ponyc',
     'DigitalInnovation/akamai-rules-validation',
