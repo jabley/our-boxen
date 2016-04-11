@@ -153,6 +153,7 @@ class people::jabley::repos {
     'Netflix/zuul',
     'nginx/nginx',
     'omniti-labs/reconnoiter',
+    'openregister/mint',
     'openregister/register',
     'real-logic/Aeron',
     'robyoung/http2play',
