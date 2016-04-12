@@ -94,6 +94,8 @@ class people::jabley::repos {
     'DigitalInnovation/MSSpringCommerce',
     'DigitalInnovation/NORTH-loyalty-services',
     'DigitalInnovation/ops-manual',
+    'DigitalInnovation/orion-category-service',
+    'DigitalInnovation/orion-location-assembly',
     'DigitalInnovation/orion-examples',
     'DigitalInnovation/pattern-library',
     'DigitalInnovation/people',
