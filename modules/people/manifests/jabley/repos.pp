@@ -101,6 +101,7 @@ class people::jabley::repos {
     'DigitalInnovation/people',
     'DigitalInnovation/shop-assembler',
     'DigitalInnovation/shop-commerce',
+    'DigitalInnovation/shop-commerce-test-wrapper',
     'DigitalInnovation/shop-UX',
     'DigitalInnovation/SpringMustacheView',
     'DigitalInnovation/styleguides',
