@@ -75,6 +75,21 @@ class people::jabley(
     refreshonly => true,
   }
 
+  $goenv = "${home_projects}/alext/goenv"
+
+  repository { $goenv:
+    before  => Repository[$dotfiles],
+    ensure  => 'v0.0.7',
+    source  => 'alext/goenv',
+    require => File[$home_projects],
+    notify  => Exec['link-goenv'],
+  }
+
+  exec { 'link-goenv':
+    command     => "ln -s ${home_projects}/alext/goenv ${home}/.goenv",
+    refreshonly => true,
+  }
+
   include people::jabley::repos
 
 #  $emacs = "${home_projects}/emacs-d"
