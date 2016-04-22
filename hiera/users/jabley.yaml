@@ -73,6 +73,7 @@ boxen::personal::homebrew_packages:
   - pigz
   - pngcrush
   - pv
+  - ssh-copy-id
   - tarsnap
   - tree
   - the_platinum_searcher
