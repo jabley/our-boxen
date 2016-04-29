@@ -46,6 +46,7 @@ class people::jabley(
   npm_module { "keybase-installer for node ${node_version}":
       module       => 'keybase-installer',
       version      => '~> 1.0.3',
+      ensure       => absent,
       node_version => $node_version,
   }
 

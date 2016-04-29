@@ -22,6 +22,7 @@ boxen::personal::homebrew_packages:
   - id3tool
   - iperf
   - jpeg
+  - keybase
   - lame
   - logstalgia
   - luajit
