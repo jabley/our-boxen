@@ -36,7 +36,6 @@ boxen::personal::homebrew_packages:
   - pcre
   - pidof
   - pkg-config
-  - play22
   - potrace
   - postgresql
   - proctools
