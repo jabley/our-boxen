@@ -62,7 +62,7 @@ boxen::personal::homebrew_packages:
   - go
   - gpg-agent
   - graphviz
-  - heroku-toolbelt
+  - heroku
   - httperf
   - leiningen
   - lynx
