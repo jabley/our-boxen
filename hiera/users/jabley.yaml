@@ -59,6 +59,7 @@ boxen::personal::homebrew_packages:
   - ansible
   - bash-completion
   - curl
+  - gnupg
   - go
   - gpg-agent
   - graphviz
