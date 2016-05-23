@@ -47,6 +47,7 @@ boxen::personal::homebrew_packages:
   - shellcheck
   - sloccount
   - smartmontools
+  - typesafe-activator
   - terraform
   - tesseract
   - unrar
