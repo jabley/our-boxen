@@ -64,6 +64,7 @@ boxen::personal::homebrew_packages:
   - graphviz
   - heroku
   - httperf
+  - infer
   - leiningen
   - lynx
   - nmap
