@@ -107,6 +107,7 @@ class people::jabley(
 #  }
 
   homebrew::tap { 'olleolleolle/homebrew-adr-tools': }
+  homebrew::tap { 'cloudfoundry/tap': }
 
   package { 'java':
     provider => 'brewcask',
