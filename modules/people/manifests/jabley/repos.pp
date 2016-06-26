@@ -130,6 +130,7 @@ class people::jabley::repos {
     'jabley/bcrypt-ruby',
     'jabley/bloog',
     'jabley/bob-walker',
+    'jabley/BoilingFrogs',
     'jabley/campfire-plugin',
     'jabley/capybara',
     'jabley/confnotes.club',
