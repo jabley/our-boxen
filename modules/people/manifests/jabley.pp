@@ -128,7 +128,6 @@ class people::jabley(
     command => 'go get golang.org/x/tools/cmd/cover \
                 && go get golang.org/x/tools/cmd/godoc \
                 && go get golang.org/x/tools/cmd/present \
-                && go get golang.org/x/tools/cmd/vet \
                 && go get golang.org/x/tools/cmd/goimports \
                 && go get github.com/bradfitz/http2/h2i \
                 && go get github.com/jabley/train/cmd/train \
