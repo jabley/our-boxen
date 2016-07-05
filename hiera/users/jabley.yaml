@@ -14,6 +14,7 @@ boxen::personal::homebrew_packages:
   - ffmpeg
   - gettext
   - ghc
+  - ghostscript
   - glew
   - glm
   - gmp
@@ -21,6 +22,7 @@ boxen::personal::homebrew_packages:
   - gradle
   - groovy
   - id3tool
+  - imagemagick
   - iperf
   - jpeg
   - keybase
