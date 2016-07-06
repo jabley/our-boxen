@@ -141,6 +141,7 @@ class people::jabley::repos {
     'jabley/faraday_middleware',
     'jabley/forcomp',
     'jabley/fpinscala-exercises',
+    'jabley/FrameworkBenchmarks',
     'jabley/gmail-britta',
     'jabley/gojsonschema',
     'jabley/golang-challenge-1',
