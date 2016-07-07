@@ -92,6 +92,7 @@ class people::jabley::repos {
     'DigitalInnovation/fear-core-tasks',
     'DigitalInnovation/fear-core-ui',
     'DigitalInnovation/fear-sdk',
+    'DigitalInnovation/MCP-Infra',
     'DigitalInnovation/MCP-Proxy',
     'DigitalInnovation/mns-devops-docker',
     'DigitalInnovation/MSSpringCommerce',
