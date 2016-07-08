@@ -106,6 +106,7 @@ class people::jabley::repos {
     'DigitalInnovation/orion-examples',
     'DigitalInnovation/pattern-library',
     'DigitalInnovation/people',
+    'DigitalInnovation/services',
     'DigitalInnovation/shop-assembler',
     'DigitalInnovation/shop-commerce',
     'DigitalInnovation/shop-commerce-test-wrapper',
