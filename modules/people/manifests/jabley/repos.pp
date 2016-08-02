@@ -152,6 +152,7 @@ class people::jabley::repos {
     'jabley/homebrew',
     'jabley/jargone',
     'jabley/markdown',
+    'jabley/matasano-crypto-challenges',
     'jabley/netty',
     'jabley/performance-node-frontend',
     'jabley/progfun',
