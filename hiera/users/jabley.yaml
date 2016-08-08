@@ -10,6 +10,7 @@ boxen::personal::homebrew_packages:
   - cf-cli
   - cloc
   - cmake
+  - delve
   - dos2unix
   - ffmpeg
   - gettext
@@ -58,7 +59,7 @@ boxen::personal::homebrew_packages:
   - x264
   - xvid
   - yasm
-  # Other stuff  
+  # Other stuff
   - ansible
   - bash-completion
   - curl
