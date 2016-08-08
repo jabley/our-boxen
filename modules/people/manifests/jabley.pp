@@ -156,4 +156,14 @@ class people::jabley(
     ]:
     ensure => absent,
   }
+
+  # dirty way of ensuring that installer can install things like gpgtools
+  sudoers { 'installer':
+    users    => $::boxen_user,
+    hosts    => 'ALL',
+    commands => [
+      '(ALL) SETENV:NOPASSWD: /usr/sbin/installer',
+    ],
+    type     => 'user_spec',
+  }
 }
