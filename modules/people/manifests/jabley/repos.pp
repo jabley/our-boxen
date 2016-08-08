@@ -85,6 +85,7 @@ class people::jabley::repos {
     'DigitalInnovation/boss-stocklocator-automation',
     'DigitalInnovation/boss-stocklocator',
     'DigitalInnovation/blobfish',
+    'DigitalInnovation/cf-platform-docs',
     'DigitalInnovation/cfto-browse',
     'DigitalInnovation/cfto_test',
     'DigitalInnovation/fear-core',
