@@ -105,8 +105,8 @@ boxen::personal::osx_apps:
   - alfred
   - android-file-transfer
   - atom
-  - dockertoolbox
   - dropbox
+  - docker
   - emacs
   - evernote
   - firefox
