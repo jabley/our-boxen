@@ -44,7 +44,7 @@ class people::jabley::repos {
             source  => "git@${host}:${source}",
             path    => "${people::jabley::home_projects}/${dir}/${path}",
             require => File["${people::jabley::home_projects}/${dir}"],
-        }        
+        }
     } else {
         repository { "${people::jabley::home_projects}/${title}":
             ensure  => $ensure,
@@ -101,6 +101,7 @@ class people::jabley::repos {
     'DigitalInnovation/NORTH-loyalty-services',
     'DigitalInnovation/ops-manual',
     'DigitalInnovation/orion-category-service',
+    'DigitalInnovation/orion-gradle',
     'DigitalInnovation/orion-inventory-service',
     'DigitalInnovation/orion-location-assembly',
     'DigitalInnovation/orion-price-service',
