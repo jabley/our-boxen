@@ -109,7 +109,7 @@ class people::jabley(
   homebrew::tap { 'olleolleolle/homebrew-adr-tools': }
   homebrew::tap { 'caskroom/versions': }
   homebrew::tap { 'cloudfoundry/tap': }
-  homebrew::tap { 'steeve/delve': }
+  homebrew::tap { 'go-delve/delve': }
 
   package { 'java':
     provider => 'brewcask',
