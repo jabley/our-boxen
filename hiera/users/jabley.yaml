@@ -10,7 +10,6 @@ boxen::personal::homebrew_packages:
   - cf-cli
   - cloc
   - cmake
-  - delve
   - dos2unix
   - ffmpeg
   - gettext
