@@ -11,6 +11,7 @@ boxen::personal::homebrew_packages:
   - cloc
   - cmake
   - dos2unix
+  - zstd
   - ffmpeg
   - gettext
   - ghc
