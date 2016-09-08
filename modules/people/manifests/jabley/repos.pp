@@ -90,6 +90,7 @@ class people::jabley::repos {
     'DigitalInnovation/cf-platform-docs',
     'DigitalInnovation/cfto-browse',
     'DigitalInnovation/cfto_test',
+    'DigitalInnovation/dachs-cf-logging',
     'DigitalInnovation/fear-core',
     'DigitalInnovation/fear-core-app',
     'DigitalInnovation/fear-core-serve',
