@@ -27,6 +27,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/real-logic",
     "${people::jabley::home_projects}/robyoung",
     "${people::jabley::home_projects}/rust-lang",
+    "${people::jabley::home_projects}/spf13",
     "${people::jabley::home_projects}/twitter",
     "${people::jabley::home_projects}/VividCortex",
     ]:
@@ -183,6 +184,7 @@ class people::jabley::repos {
     'real-logic/Aeron',
     'robyoung/http2play',
     'rust-lang/rust',
+    'spf13/hugo',
     'twitter/finagle',
     'twitter/scala_school',
     'VividCortex/go-database-sql-tutorial',
