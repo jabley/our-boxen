@@ -36,6 +36,7 @@ boxen::personal::homebrew_packages:
   - multirust
   - ocaml
   - oniguruma
+  - openconnect
   - pandoc
   - pcre
   - pidof
@@ -132,6 +133,7 @@ boxen::personal::osx_apps:
   - thunderbird
   - torbrowser
   - transmission
+  - tuntap
   - vlc
   - virtualbox
   - virtualbox-extension-pack
