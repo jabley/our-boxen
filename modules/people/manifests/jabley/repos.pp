@@ -103,6 +103,7 @@ class people::jabley::repos {
     'DigitalInnovation/fear-core-tasks',
     'DigitalInnovation/fear-core-ui',
     'DigitalInnovation/fear-sdk',
+    'DigitalInnovation/loyalty-services-infra',
     'DigitalInnovation/MCP-ATATMonitor',
     'DigitalInnovation/MCP-Infra',
     'DigitalInnovation/MCP-Proxy',
