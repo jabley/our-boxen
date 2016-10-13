@@ -105,6 +105,7 @@ boxen::personal::osx_apps:
   - alfred
   - android-file-transfer
   - atom
+  - bluemix-cli
   - calibre
   - dropbox
   - docker
