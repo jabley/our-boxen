@@ -87,6 +87,7 @@ class people::jabley::repos {
     'DigitalInnovation/boss-click-and-collect',
     'DigitalInnovation/boss-click-and-collect-admin',
     'DigitalInnovation/boss-lockers-admin',
+    'DigitalInnovation/boss-parcel-summary',
     'DigitalInnovation/boss-sppd-engine',
     'DigitalInnovation/boss-sppd-webapp',
     'DigitalInnovation/boss-stocklocator-automation',
