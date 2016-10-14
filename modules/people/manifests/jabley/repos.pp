@@ -116,6 +116,7 @@ class people::jabley::repos {
     'DigitalInnovation/NORTH-loyalty-services',
     'DigitalInnovation/ops-manual',
     'DigitalInnovation/orion-category-service',
+    'DigitalInnovation/orion-common',
     'DigitalInnovation/orion-gradle',
     'DigitalInnovation/orion-inventory-service',
     'DigitalInnovation/orion-location-assembly',
