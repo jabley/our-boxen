@@ -125,6 +125,7 @@ class people::jabley::repos {
     'DigitalInnovation/orion-examples',
     'DigitalInnovation/pattern-library',
     'DigitalInnovation/people',
+    'DigitalInnovation/pulphome',
     'DigitalInnovation/ruby-hello-world',
     'DigitalInnovation/ruby-slow-app',
     'DigitalInnovation/services',
