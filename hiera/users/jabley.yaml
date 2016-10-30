@@ -31,6 +31,7 @@ boxen::personal::homebrew_packages:
   - lame
   - logstalgia
   - luajit
+  - mas
   - md5sha1sum
   - mercurial
   - mobile-shell
