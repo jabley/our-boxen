@@ -5,6 +5,8 @@ boxen::personal::homebrew_packages:
   - adr_tools
   - ascii
   - blackbox
+  - bosh-cli
+  - bosh-init
   - brotli
   - cabal-install
   - cdrtools
