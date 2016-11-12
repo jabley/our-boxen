@@ -146,7 +146,6 @@ boxen::personal::osx_apps:
   - xbench
 
 hub::alias_hub_to_git: false
-hub::package_name: 'hub'
 
 nodejs::build::ensure: v2.1.1
 nodejs::nodenv::ensure: v1.0.0
