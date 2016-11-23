@@ -4,6 +4,8 @@ boxen::security::screensaver_delay_sec: '0'
 boxen::personal::homebrew_packages:
   - adr_tools
   - ascii
+  - awscli
+  - aws-shell
   - blackbox
   - bosh-cli
   - bosh-init
