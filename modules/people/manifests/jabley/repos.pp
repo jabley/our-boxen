@@ -21,6 +21,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/mattbostock",
     "${people::jabley::home_projects}/moo",
+    "${people::jabley::home_projects}/moo/moo",
     "${people::jabley::home_projects}/moo/ops",
     "${people::jabley::home_projects}/mozilla-services",
     "${people::jabley::home_projects}/Netflix",
@@ -166,6 +167,9 @@ class people::jabley::repos {
   }
 
   moo {[
+      'moo/db',
+      'moo/services',
+      'moo/site',
       'ops/ansible',
     ]:
   }
