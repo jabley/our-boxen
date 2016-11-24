@@ -171,6 +171,7 @@ class people::jabley::repos {
       'moo/services',
       'moo/site',
       'ops/ansible',
+      'ops/emo-debs',
     ]:
   }
 }
