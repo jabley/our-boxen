@@ -20,6 +20,8 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/kelseyhightower",
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/mattbostock",
+    "${people::jabley::home_projects}/moo",
+    "${people::jabley::home_projects}/moo/ops",
     "${people::jabley::home_projects}/mozilla-services",
     "${people::jabley::home_projects}/Netflix",
     "${people::jabley::home_projects}/nginx",
@@ -55,6 +57,20 @@ class people::jabley::repos {
             source  => "git@${host}:${source}",
             require => File["${people::jabley::home_projects}/${dir}"],
         }
+    }
+  }
+
+  define moo ($host = "gitlab.office.moo.com", $ensure = 'present') {
+    $dirs = split($title, '/')
+
+    $dir = $dirs[0]
+    $repo = $dirs[1]
+    $source = $title
+
+    repository { "${people::jabley::home_projects}/moo/${title}":
+        ensure  => $ensure,
+        source  => "git@${host}:${source}",
+        require => File["${people::jabley::home_projects}/moo/${dir}"],
     }
   }
 
@@ -146,6 +162,11 @@ class people::jabley::repos {
     'twitter/finagle',
     'twitter/scala_school',
     'VividCortex/go-database-sql-tutorial',
+    ]:
+  }
+
+  moo {[
+      'ops/ansible',
     ]:
   }
 }

@@ -9,6 +9,10 @@ Compression yes
 Host va
   HostName vanadium.sabren.com
 
+Host gitlab.office.moo.com
+  User git
+  IdentityFile ~/.ssh/moo_id_rsa
+
 #
 # Github
 #
