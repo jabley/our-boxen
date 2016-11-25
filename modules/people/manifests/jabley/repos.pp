@@ -134,6 +134,7 @@ class people::jabley::repos {
     'jabley/government-service-design-manual',
     'jabley/homebrew',
     'jabley/jargone',
+    'jabley/jamesabley.com',
     'jabley/markdown',
     'jabley/matasano-crypto-challenges',
     'jabley/netty',
