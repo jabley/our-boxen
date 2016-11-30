@@ -21,6 +21,8 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/mattbostock",
     "${people::jabley::home_projects}/moo",
+    "${people::jabley::home_projects}/moo/jamesa",
+    "${people::jabley::home_projects}/moo/katie",
     "${people::jabley::home_projects}/moo/moo",
     "${people::jabley::home_projects}/moo/ops",
     "${people::jabley::home_projects}/mozilla-services",
@@ -168,6 +170,8 @@ class people::jabley::repos {
   }
 
   moo {[
+      'jamesa/cdn-docs',
+      'katie/cdn-acceptance-tests',
       'moo/db',
       'moo/services',
       'moo/site',
