@@ -93,6 +93,7 @@ class people::jabley::repos {
   }
 
   github {[
+    'alphagov/cdn-acceptance-tests',
     'alphagov/govuk_frontend_toolkit',
     'alphagov/metadata-api',
     'alphagov/router',
