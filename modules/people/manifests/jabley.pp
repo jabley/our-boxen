@@ -7,6 +7,10 @@ class people::jabley(
     completion => true,
   }
 
+  class { 'nginx':
+    ensure => absent,
+  }
+
   vagrant::plugin { 'vagrant-cachier': }
   vagrant::plugin { 'vagrant-dns': }
   vagrant::plugin { 'vagrant-hostmanager': }
