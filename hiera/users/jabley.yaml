@@ -43,7 +43,6 @@ boxen::personal::homebrew_packages:
   - ocaml
   - oniguruma
   - openconnect
-  - pandoc
   - pcre
   - pidof
   - pkg-config
