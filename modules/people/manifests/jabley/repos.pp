@@ -21,6 +21,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/mattbostock",
     "${people::jabley::home_projects}/moo",
+    "${people::jabley::home_projects}/moo/ecom",
     "${people::jabley::home_projects}/moo/ilja",
     "${people::jabley::home_projects}/moo/jamesa",
     "${people::jabley::home_projects}/moo/katie",
@@ -174,6 +175,8 @@ class people::jabley::repos {
   }
 
   moo {[
+      'ecom/cms',
+      'ecom/cmsfe',
       'ilja/mock-cdn',
       'ilja/ngrok-java-container',
       'jamesa/cdn-docs',
