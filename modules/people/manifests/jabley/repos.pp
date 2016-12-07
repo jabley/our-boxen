@@ -139,6 +139,7 @@ class people::jabley::repos {
     'jabley/gom',
     'jabley/government-service-design-manual',
     'jabley/homebrew',
+    'jabley/hello-go-web',
     'jabley/jargone',
     'jabley/jamesabley.com',
     'jabley/markdown',
