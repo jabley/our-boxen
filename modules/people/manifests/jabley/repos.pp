@@ -28,6 +28,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/moo/katie",
     "${people::jabley::home_projects}/moo/moo",
     "${people::jabley::home_projects}/moo/ops",
+    "${people::jabley::home_projects}/moo/platform-engineering",
     "${people::jabley::home_projects}/moodev",
     "${people::jabley::home_projects}/mozilla-services",
     "${people::jabley::home_projects}/Netflix",
@@ -190,6 +191,7 @@ class people::jabley::repos {
       'moo/site',
       'ops/ansible',
       'ops/emo-debs',
+      'platform-engineering/common-ci-images',
     ]:
   }
 }
