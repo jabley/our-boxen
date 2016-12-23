@@ -25,7 +25,6 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/moo/ecom",
     "${people::jabley::home_projects}/moo/ilja",
     "${people::jabley::home_projects}/moo/jamesa",
-    "${people::jabley::home_projects}/moo/katie",
     "${people::jabley::home_projects}/moo/moo",
     "${people::jabley::home_projects}/moo/ops",
     "${people::jabley::home_projects}/moo/platform-engineering",
@@ -184,14 +183,14 @@ class people::jabley::repos {
       'ilja/mock-cdn',
       'ilja/ngrok-java-container',
       'jamesa/cdn-docs',
-      'katie/cdn-acceptance-tests',
-      'katie/fastly-env-generator',
       'moo/db',
       'moo/services',
       'moo/site',
       'ops/ansible',
       'ops/emo-debs',
+      'platform-engineering/cdn-tests',
       'platform-engineering/common-ci-images',
+      'platform-engineering/fastly-env-generator',
     ]:
   }
 }
