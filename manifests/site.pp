@@ -76,7 +76,6 @@ node default {
   # common, useful packages
   package {
     [
-      'ack',
       'findutils',
       'gnu-tar'
     ]:
