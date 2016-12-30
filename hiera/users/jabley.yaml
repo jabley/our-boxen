@@ -85,10 +85,10 @@ boxen::personal::homebrew_packages:
   - pigz
   - pngcrush
   - pv
+  - ripgrep
   - ssh-copy-id
   - tarsnap
   - tree
-  - the_platinum_searcher
   - tmux
   - vegeta
   - wrk
