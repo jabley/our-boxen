@@ -189,6 +189,7 @@ class people::jabley::repos {
       'ops/ansible',
       'ops/emo-debs',
       'ops/fastly-java-client',
+      'platform-engineering/botnet',
       'platform-engineering/cdn-tests',
       'platform-engineering/common-ci-images',
       'platform-engineering/fastly-env-generator',
