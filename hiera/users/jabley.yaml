@@ -43,6 +43,7 @@ boxen::personal::homebrew_packages:
   - ocaml
   - oniguruma
   - openconnect
+  - pass
   - pcre
   - pidof
   - pkg-config
