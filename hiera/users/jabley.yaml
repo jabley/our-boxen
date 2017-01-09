@@ -39,6 +39,7 @@ boxen::personal::homebrew_packages:
   - md5sha1sum
   - mercurial
   - mobile-shell
+  - mtr
   - multirust
   - ocaml
   - oniguruma
