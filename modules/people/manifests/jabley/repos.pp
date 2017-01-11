@@ -23,6 +23,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/mattbostock",
     "${people::jabley::home_projects}/moo",
+    "${people::jabley::home_projects}/moo/docker",
     "${people::jabley::home_projects}/moo/ecom",
     "${people::jabley::home_projects}/moo/ilja",
     "${people::jabley::home_projects}/moo/jamesa",
@@ -178,6 +179,7 @@ class people::jabley::repos {
   }
 
   moo {[
+      'docker/moo-java-gradle',
       'ecom/cms',
       'ecom/cmsfe',
       'ilja/mock-cdn',
