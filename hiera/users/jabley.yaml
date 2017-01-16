@@ -40,7 +40,6 @@ boxen::personal::homebrew_packages:
   - mercurial
   - mobile-shell
   - mtr
-  - multirust
   - ocaml
   - oniguruma
   - openconnect
