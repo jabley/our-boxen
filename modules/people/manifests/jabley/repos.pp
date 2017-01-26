@@ -191,6 +191,7 @@ class people::jabley::repos {
       'ops/ansible',
       'ops/emo-debs',
       'ops/fastly-java-client',
+      'ops/terraform',
       'platform-engineering/ab-testing-vcl-generator',
       'platform-engineering/botnet',
       'platform-engineering/cdn-tests',
