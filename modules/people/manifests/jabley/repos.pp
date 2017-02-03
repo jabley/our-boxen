@@ -198,7 +198,7 @@ class people::jabley::repos {
       'platform-engineering/botnet',
       'platform-engineering/cdn-tests',
       'platform-engineering/common-ci-images',
-      'platform-engineering/fastly-env-generator',
+      'platform-engineering/fastly-manager',
     ]:
   }
 }
