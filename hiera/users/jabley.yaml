@@ -31,6 +31,7 @@ boxen::personal::homebrew_packages:
   - imagemagick
   - iperf
   - jpeg
+  - jq
   - keybase
   - lame
   - logstalgia
