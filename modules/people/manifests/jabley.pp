@@ -118,6 +118,14 @@ class people::jabley(
     provider        => homebrew
   }
 
+  package { 'curl':
+    ensure          => present,
+    install_options => [
+      '--with-nghttp2',
+    ],
+    provider        => homebrew,
+  }
+
   Package['go'] -> exec { 'install_go_tools':
    environment => ["GOPATH=${home}/gocode"],
     command => 'go get golang.org/x/tools/cmd/cover \

@@ -70,7 +70,6 @@ boxen::personal::homebrew_packages:
   # Other stuff
   - ansible
   - bash-completion
-  - curl
   - go
   - gpg-agent
   - graphviz
