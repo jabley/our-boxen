@@ -21,6 +21,7 @@ boxen::personal::homebrew_packages:
   - gettext
   - ghc
   - ghostscript
+  - git-secrets
   - glew
   - glm
   - gmp
