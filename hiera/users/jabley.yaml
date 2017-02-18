@@ -53,6 +53,7 @@ boxen::personal::homebrew_packages:
   - postgresql
   - proctools
   - protobuf
+  - pup
   - python3
   - sdl
   - sdl_image
