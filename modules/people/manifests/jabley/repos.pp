@@ -138,6 +138,7 @@ class people::jabley::repos {
     'jabley/forcomp',
     'jabley/fpinscala-exercises',
     'jabley/FrameworkBenchmarks',
+    'jabley/ghcli',
     'jabley/gmail-britta',
     'jabley/gojsonschema',
     'jabley/golang-challenge-1',
