@@ -135,6 +135,7 @@ class people::jabley(
                 && go get github.com/bradfitz/http2/h2i \
                 && go get github.com/jabley/train/cmd/train \
                 && go get github.com/golang/lint/golint \
+                && (go get -u golang.org/x/blog || true)
                 '
   }
 
