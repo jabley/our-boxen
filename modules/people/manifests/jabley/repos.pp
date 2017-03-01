@@ -32,6 +32,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/moo/moo",
     "${people::jabley::home_projects}/moo/ops",
     "${people::jabley::home_projects}/moo/platform-engineering",
+    "${people::jabley::home_projects}/moo/python-infrastructure",
     "${people::jabley::home_projects}/mozilla-services",
     "${people::jabley::home_projects}/Netflix",
     "${people::jabley::home_projects}/nginx",
@@ -204,6 +205,8 @@ class people::jabley::repos {
       'platform-engineering/cdn-tests',
       'platform-engineering/common-ci-images',
       'platform-engineering/fastly-manager',
+      'platform-engineering/filestore-java-client',
+      'python-infrastructure/filestore-client',
     ]:
   }
 }
