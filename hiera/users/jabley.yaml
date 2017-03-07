@@ -68,6 +68,7 @@ boxen::personal::homebrew_packages:
   - wget
   - x264
   - xvid
+  - yarn
   - yasm
   # Other stuff
   - ansible
