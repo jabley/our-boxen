@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
-    android (1.4.0)
+    android (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-boxen
@@ -11,7 +11,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
   specs:
-    brewcask (0.0.7)
+    brewcask (0.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (3.0.2)
+    gcc (3.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (3.3.0)
+    vagrant (3.3.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -111,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-concat
   specs:
-    concat (1.2.1)
+    concat (2.2.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -129,13 +129,13 @@ GITHUBTARBALL
     module_data (0.0.4)
 
 DEPENDENCIES
-  android (= 1.4.0)
+  android (= 1.6.0)
   boxen (= 3.11.1)
-  brewcask (= 0.0.7)
-  concat (= 1.2.1)
+  brewcask (= 0.0.9)
+  concat (= 2.2.0)
   dnsmasq (= 2.0.2)
   foreman (= 1.2.0)
-  gcc (= 3.0.2)
+  gcc (= 3.0.3)
   git (= 2.11.0)
   go (= 2.1.0)
   homebrew (= 2.1.0)
@@ -153,6 +153,6 @@ DEPENDENCIES
   stdlib (= 4.7.0)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
-  vagrant (= 3.3.0)
+  vagrant (= 3.3.4)
   xquartz (= 1.2.1)
 
