@@ -203,6 +203,7 @@ class people::jabley::repos {
       'ops/ansible',
       'ops/emo-debs',
       'ops/fastly-java-client',
+      'ops/runbooks',
       'ops/terraform',
       'pixel/bascule',
       'platform-engineering/ab-testing-vcl-generator',
