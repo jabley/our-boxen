@@ -195,6 +195,7 @@ class people::jabley::repos {
       'ilja/ngrok-java-container',
       'jamesa/cdn-docs',
       'm4b/mbs-platform-api',
+      'miguel/moostored-s3-go',
       'miguel/objectstore-benchmark',
       'money/site-automated-testing',
       'moo/db',
