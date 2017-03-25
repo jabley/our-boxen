@@ -2,10 +2,7 @@ class people::jabley(
   $node_version = '4.2.4',
 ) {
 
-  class { 'vagrant':
-    version => '1.7.4',
-    completion => true,
-  }
+  include vagrant
 
   vagrant::plugin { 'vagrant-cachier': }
   vagrant::plugin { 'vagrant-dns': }
