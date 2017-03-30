@@ -115,6 +115,7 @@ class people::jabley::repos {
     'adrianco/spigo',
     'camlistore/camlistore',
     'circonus-labs/fq',
+    'circonus-labs/libcircllhist',
     'circonus-labs/libmtev',
     'clojure/clojure',
     'coreos/coreos-vagrant',
