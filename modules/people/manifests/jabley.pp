@@ -101,7 +101,6 @@ class people::jabley(
       'maven',
       'scala',
       'sbt',
-      'android-sdk',
     ]:
     ensure   => latest,
     provider => 'homebrew',
