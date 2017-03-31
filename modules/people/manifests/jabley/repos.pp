@@ -23,6 +23,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/mattbostock",
     "${people::jabley::home_projects}/moo",
+    "${people::jabley::home_projects}/moo/data-warehouse",
     "${people::jabley::home_projects}/moo/docker",
     "${people::jabley::home_projects}/moo/ecom",
     "${people::jabley::home_projects}/moo/ilja",
@@ -189,6 +190,7 @@ class people::jabley::repos {
   }
 
   moo {[
+      'data-warehouse/af-tf',
       'docker/moo-java-gradle',
       'ecom/cms',
       'ecom/cmsfe',
