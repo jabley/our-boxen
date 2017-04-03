@@ -208,6 +208,7 @@ class people::jabley::repos {
       'ops/emo-debs',
       'ops/fastly-java-client',
       'ops/runbooks',
+      'ops/s3filesyncd',
       'ops/terraform',
       'pixel/bascule',
       'platform-engineering/ab-testing-vcl-generator',
