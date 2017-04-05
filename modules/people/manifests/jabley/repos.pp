@@ -207,6 +207,7 @@ class people::jabley::repos {
       'ops/ansible',
       'ops/emo-debs',
       'ops/fastly-java-client',
+      'ops/prometheus-dev',
       'ops/runbooks',
       'ops/s3filesyncd',
       'ops/terraform',
