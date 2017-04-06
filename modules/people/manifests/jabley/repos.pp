@@ -210,6 +210,7 @@ class people::jabley::repos {
       'ops/prometheus-dev',
       'ops/runbooks',
       'ops/s3filesyncd',
+      'ops/systems-svn-archive',
       'ops/terraform',
       'pixel/bascule',
       'platform-engineering/ab-testing-vcl-generator',
