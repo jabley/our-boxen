@@ -215,6 +215,7 @@ class people::jabley::repos {
       'ops/ansible',
       'ops/emo-debs',
       'ops/fastly-java-client',
+      'ops/filestore-s3-migration-updated-moostored-proxy',
       'ops/prometheus-dev',
       'ops/runbooks',
       'ops/s3filesyncd',
