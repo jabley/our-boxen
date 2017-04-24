@@ -23,6 +23,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/mattbostock",
     "${people::jabley::home_projects}/moo",
+    "${people::jabley::home_projects}/moo/create",
     "${people::jabley::home_projects}/moo/data-warehouse",
     "${people::jabley::home_projects}/moo/docker",
     "${people::jabley::home_projects}/moo/ecom",
@@ -190,6 +191,13 @@ class people::jabley::repos {
   }
 
   moo {[
+      'create/buildhub',
+      'create/config',
+      'create/dtadmin',
+      'create/dtapi',
+      'create/houdini',
+      'create/imagestore',
+      'create/warhol',
       'data-warehouse/af-tf',
       'docker/moo-java-gradle',
       'ecom/cms',
