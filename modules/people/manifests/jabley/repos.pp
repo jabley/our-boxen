@@ -221,6 +221,7 @@ class people::jabley::repos {
       'ops/s3filesyncd',
       'ops/systems-svn-archive',
       'ops/terraform',
+      'ops/xymon',
       'pixel/bascule',
       'platform-engineering/ab-testing-vcl-generator',
       'platform-engineering/botnet',

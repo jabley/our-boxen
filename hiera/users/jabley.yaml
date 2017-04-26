@@ -15,6 +15,7 @@ boxen::personal::homebrew_packages:
   - cf-cli
   - cloc
   - cmake
+  - cpanminus
   - dos2unix
   - zstd
   - ffmpeg
