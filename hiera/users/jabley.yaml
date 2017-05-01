@@ -81,6 +81,7 @@ boxen::personal::homebrew_packages:
   - heroku
   - httperf
   - infer
+  - kubernetes-cli
   - leiningen
   - lynx
   - nmap
