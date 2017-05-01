@@ -74,6 +74,7 @@ boxen::personal::homebrew_packages:
   # Other stuff
   - ansible
   - bash-completion
+  - docker-machine-driver-xhyve
   - go
   - gpg-agent
   - graphviz
@@ -97,6 +98,7 @@ boxen::personal::homebrew_packages:
   - tmux
   - vegeta
   - wrk
+  - xhyve
   - youtube-dl
 
 boxen::personal::includes:
@@ -135,6 +137,7 @@ boxen::personal::osx_apps:
   - kindle
   - licecap
   - little-snitch
+  - minikube
   - paparazzi
   - rowanj-gitx
   - scala-ide
