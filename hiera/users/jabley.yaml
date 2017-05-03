@@ -82,6 +82,7 @@ boxen::personal::homebrew_packages:
   - httperf
   - infer
   - kubernetes-cli
+  - kubernetes-helm
   - leiningen
   - lynx
   - nmap
