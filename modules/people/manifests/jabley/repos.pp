@@ -23,6 +23,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/MastodonC",
     "${people::jabley::home_projects}/mattbostock",
     "${people::jabley::home_projects}/moo",
+    "${people::jabley::home_projects}/moo/chrise",
     "${people::jabley::home_projects}/moo/create",
     "${people::jabley::home_projects}/moo/data-warehouse",
     "${people::jabley::home_projects}/moo/docker",
@@ -192,6 +193,7 @@ class people::jabley::repos {
   }
 
   moo {[
+      'chrise/pro-upload',
       'create/buildhub',
       'create/config',
       'create/dtadmin',
@@ -206,6 +208,7 @@ class people::jabley::repos {
       'ilja/mock-cdn',
       'ilja/ngrok-java-container',
       'jamesa/cdn-docs',
+      'jamesa/helloworld',
       'm4b/mbs-platform-api',
       'miguel/moostored-s3-go',
       'miguel/objectstore-benchmark',
