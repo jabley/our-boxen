@@ -209,6 +209,7 @@ class people::jabley::repos {
       'ilja/ngrok-java-container',
       'jamesa/cdn-docs',
       'jamesa/helloworld',
+      'jamesa/stackpoint',
       'm4b/mbs-platform-api',
       'miguel/moostored-s3-go',
       'miguel/objectstore-benchmark',
