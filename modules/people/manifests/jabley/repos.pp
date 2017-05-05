@@ -216,6 +216,7 @@ class people::jabley::repos {
       'money/site-automated-testing',
       'moo/db',
       'moo/services',
+      'moo/services-common',
       'moo/site',
       'ops/ansible',
       'ops/emo-debs',
