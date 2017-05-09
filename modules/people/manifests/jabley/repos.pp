@@ -153,6 +153,7 @@ class people::jabley::repos {
     'jabley/golang-challenge-1',
     'jabley/gom',
     'jabley/government-service-design-manual',
+    'jabley/HaskellMOOC',
     'jabley/hello-go-web',
     'jabley/homebrew',
     'jabley/httptraced',
