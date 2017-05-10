@@ -155,6 +155,7 @@ boxen::personal::osx_apps:
   - vlc
   - virtualbox
   - virtualbox-extension-pack
+  - visual-studio-code
   - xbench
 
 hub::alias_hub_to_git: false
