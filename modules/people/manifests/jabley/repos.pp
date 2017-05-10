@@ -237,6 +237,7 @@ class people::jabley::repos {
       'platform-engineering/common-ci-images',
       'platform-engineering/fastly-manager',
       'platform-engineering/filestore-java-client',
+      'platform-engineering/moo-servlet-metrics',
       'platform-engineering/mootil',
       'pro-upload/pro-upload',
       'python-infrastructure/filestore-client',
