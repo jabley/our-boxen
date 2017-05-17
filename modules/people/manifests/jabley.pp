@@ -122,6 +122,14 @@ class people::jabley(
     provider        => homebrew,
   }
 
+  package { 'lastpass-cli':
+    ensure          => present,
+    install_options => [
+      '--with-pinentry',
+    ],
+    provider        => homebrew,
+  }
+
   Package['go'] -> exec { 'install_go_tools':
    environment => ["GOPATH=${home}/gocode"],
     command => 'go get golang.org/x/tools/cmd/cover \
