@@ -24,6 +24,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/mattbostock",
     "${people::jabley::home_projects}/moo",
     "${people::jabley::home_projects}/moo/chrise",
+    "${people::jabley::home_projects}/moo/claudio",
     "${people::jabley::home_projects}/moo/create",
     "${people::jabley::home_projects}/moo/data-warehouse",
     "${people::jabley::home_projects}/moo/docker",
@@ -195,6 +196,7 @@ class people::jabley::repos {
 
   moo {[
       'chrise/pro-upload',
+      'claudio/catalyst-framework',
       'create/buildhub',
       'create/config',
       'create/dtadmin',
