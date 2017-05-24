@@ -197,6 +197,7 @@ class people::jabley::repos {
   moo {[
       'chrise/pro-upload',
       'claudio/catalyst-framework',
+      'claudio/fastly-logs',
       'create/buildhub',
       'create/config',
       'create/dtadmin',
