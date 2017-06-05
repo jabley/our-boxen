@@ -42,6 +42,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/moo/platform-engineering",
     "${people::jabley::home_projects}/moo/pro-upload",
     "${people::jabley::home_projects}/moo/python-infrastructure",
+    "${people::jabley::home_projects}/moo/testers-guild",
     "${people::jabley::home_projects}/mozilla-services",
     "${people::jabley::home_projects}/Netflix",
     "${people::jabley::home_projects}/nginx",
@@ -268,6 +269,7 @@ class people::jabley::repos {
       'platform-engineering/mootil',
       'pro-upload/pro-upload',
       'python-infrastructure/filestore-client',
+      'testers-guild/gatling-workshop',
     ]:
   }
 }
