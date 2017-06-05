@@ -34,7 +34,6 @@ boxen::personal::homebrew_packages:
   - iperf
   - jpeg
   - jq
-  - keybase
   - lame
   - logstalgia
   - luajit
@@ -136,6 +135,7 @@ boxen::personal::osx_apps:
   - imageoptim
   - intellij-idea-ce
   - keepingyouawake
+  - keybase
   - kindle
   - licecap
   - little-snitch
