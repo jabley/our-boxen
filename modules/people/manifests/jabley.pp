@@ -6,7 +6,6 @@ class people::jabley(
   vagrant::plugin { 'vagrant-cachier': }
   vagrant::plugin { 'vagrant-dns': }
   vagrant::plugin { 'vagrant-hostmanager': }
-#  vagrant::plugin { 'vagrant-vmware-fusion': }
 
   # All my SSH belong
   ssh_config::fragment {"user":
