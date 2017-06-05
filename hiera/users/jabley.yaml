@@ -64,7 +64,6 @@ boxen::personal::homebrew_packages:
   - terraform
   - tesseract
   - unrar
-  - valgrind
   - wget
   - x264
   - xvid
