@@ -1,5 +1,4 @@
 class people::jabley(
-  $node_version = '4.2.4',
 ) {
 
   include vagrant
@@ -12,39 +11,6 @@ class people::jabley(
   # All my SSH belong
   ssh_config::fragment {"user":
     content => template('people/jabley/ssh_config'),
-  }
-
-#  class { 'git': version => '2.6.3' }
-
-  class { 'nodejs::global': version => $node_version }
-
-  nodejs::version { '0.12.0': }
-  nodejs::version { '0.10.36': }
-  nodejs::version { '0.8.28': }
-
-  npm_module { "json for node ${node_version}":
-      module       => 'json',
-      version      => '~> 9.0.3',
-      node_version => $node_version,
-  }
-
-  npm_module { "grunt-cli for node ${node_version}":
-      module       => 'grunt-cli',
-      version      => '~> 0.1.13',
-      node_version => $node_version,
-  }
-
-  npm_module { "gulp for node ${node_version}":
-      module       => 'gulp',
-      version      => '~> 3.9.0',
-      node_version => $node_version,
-  }
-
-  npm_module { "keybase-installer for node ${node_version}":
-      module       => 'keybase-installer',
-      version      => '~> 1.0.3',
-      ensure       => absent,
-      node_version => $node_version,
   }
 
   $home = "/Users/${::luser}"
