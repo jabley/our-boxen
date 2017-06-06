@@ -1,5 +1,8 @@
 class people::jabley::repos {
 
+  # Try to configure SSH properly before cloning anything. Poor man's DAG?
+  include people::jabley::ssh_known_hosts
+
   file {[
     "${people::jabley::home_projects}/adrianco",
     "${people::jabley::home_projects}/alphagov",
