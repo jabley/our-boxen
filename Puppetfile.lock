@@ -109,6 +109,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: indirect/puppet-mas
+  specs:
+    mas (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-concat
   specs:
     concat (2.2.0)
@@ -141,6 +146,7 @@ DEPENDENCIES
   homebrew (= 2.1.0)
   hub (= 1.4.4)
   inifile (= 1.4.1)
+  mas (= 1.0.0)
   module_data (= 0.0.4)
   nginx (= 1.7.0)
   nodejs (= 5.0.9)
