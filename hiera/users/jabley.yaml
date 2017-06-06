@@ -37,7 +37,6 @@ boxen::personal::homebrew_packages:
   - lame
   - logstalgia
   - luajit
-  - mas
   - md5sha1sum
   - mercurial
   - mobile-shell
@@ -159,6 +158,12 @@ boxen::personal::osx_apps:
   - xbench
 
 hub::alias_hub_to_git: false
+
+mas::account: james.abley@gmail.com
+mas::apps:
+  Kindle:    405399194
+  Tweetdeck: 485812721
+  Twitter:   409789998
 
 nodejs::build::ensure: v2.1.1
 nodejs::nodenv::ensure: v1.0.0

@@ -58,6 +58,8 @@ class people::jabley(
   homebrew::tap { 'cloudfoundry/tap': }
   homebrew::tap { 'go-delve/delve': }
 
+ include mas
+
   package { 'java':
     provider => 'brewcask',
   } -> package {
