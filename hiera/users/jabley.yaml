@@ -135,7 +135,6 @@ boxen::personal::osx_apps:
   - keepingyouawake
   - keybase
   - kindle
-  - lastpass
   - licecap
   - little-snitch
   - minikube
@@ -162,6 +161,7 @@ hub::alias_hub_to_git: false
 mas::account: james.abley@gmail.com
 mas::apps:
   Kindle:    405399194
+  LastPass:  926036361
   Tweetdeck: 485812721
   Twitter:   409789998
 
