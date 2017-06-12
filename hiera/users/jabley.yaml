@@ -27,6 +27,7 @@ boxen::personal::homebrew_packages:
   - glm
   - gmp
   - gnu-typist
+  - gource
   - gradle
   - groovy
   - id3tool
