@@ -265,6 +265,7 @@ class people::jabley::repos {
       'platform-engineering/fastly-manager',
       'platform-engineering/filestore-java-client',
       'platform-engineering/moo-metrics',
+      'platform-engineering/moo-parent-pom',
       'platform-engineering/mootil',
       'pro-upload/pro-upload',
       'python-infrastructure/filestore-client',
