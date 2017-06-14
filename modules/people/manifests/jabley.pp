@@ -53,7 +53,6 @@ class people::jabley(
 #    refreshonly => true,
 #  }
 
-  homebrew::tap { 'olleolleolle/homebrew-adr-tools': }
   homebrew::tap { 'caskroom/versions': }
   homebrew::tap { 'cloudfoundry/tap': }
   homebrew::tap { 'go-delve/delve': }
