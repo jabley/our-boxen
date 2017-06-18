@@ -184,6 +184,7 @@ class people::jabley::repos {
     'jabley/jamesabley.com',
     'jabley/markdown',
     'jabley/matasano-crypto-challenges',
+    'jabley/monitoring-spike',
     'jabley/netty',
     'jabley/performance-node-frontend',
     'jabley/progfun',
