@@ -27,6 +27,14 @@ Host emo
   User jamesa
   IdentityFile ~/.ssh/moo_id_rsa
 
+Host staging-rds-worker
+  User jamesa
+  HostName 10.116.1.97
+
+Host prod-rds-worker
+  User jamesa
+  HostName 10.112.1.49
+
 #
 # Github
 #
