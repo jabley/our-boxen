@@ -275,6 +275,7 @@ class people::jabley::repos {
       'pro-upload/pro-upload',
       'python-infrastructure/filestore-client',
       'testers-guild/gatling-workshop',
+      'testers-guild/moo-smoke-tests',
     ]:
   }
 }
