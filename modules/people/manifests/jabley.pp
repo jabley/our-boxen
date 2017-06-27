@@ -103,6 +103,8 @@ class people::jabley(
                 && go get golang.org/x/tools/cmd/present \
                 && go get golang.org/x/tools/cmd/goimports \
                 && go get github.com/bradfitz/http2/h2i \
+                && go get github.com/dvyukov/go-fuzz/go-fuzz \
+                && go get github.com/dvyukov/go-fuzz/go-fuzz-build \
                 && go get github.com/jabley/train/cmd/train \
                 && go get github.com/golang/lint/golint \
                 && (go get -u golang.org/x/blog || true)
