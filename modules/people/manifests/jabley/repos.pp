@@ -170,6 +170,7 @@ class people::jabley::repos {
     'jabley/forcomp',
     'jabley/fpinscala-exercises',
     'jabley/FrameworkBenchmarks',
+    'jabley/fptp',
     'jabley/ghcli',
     'jabley/gmail-britta',
     'jabley/gojsonschema',
