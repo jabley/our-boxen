@@ -243,6 +243,7 @@ class people::jabley::repos {
       'jamesa/cdn-docs',
       'jamesa/haproxy-spike',
       'jamesa/helloworld',
+      'jamesa/moostored_wrk',
       'jamesa/stackpoint',
       'jamesa/tls-support',
       'jamesa/zonefiles',
