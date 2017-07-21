@@ -189,6 +189,7 @@ class people::jabley::repos {
     'jabley/netty',
     'jabley/performance-node-frontend',
     'jabley/progfun',
+    'jabley/project-status',
     'jabley/puppet-shelf',
     'jabley/puppet',
     'jabley/requests',
