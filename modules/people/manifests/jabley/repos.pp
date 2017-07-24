@@ -6,6 +6,7 @@ class people::jabley::repos {
   file {[
     "${people::jabley::home_projects}/adrianco",
     "${people::jabley::home_projects}/alphagov",
+    "${people::jabley::home_projects}/brendangregg",
     "${people::jabley::home_projects}/camlistore",
     "${people::jabley::home_projects}/CausalityLtd",
     "${people::jabley::home_projects}/cdaniel",
@@ -135,6 +136,7 @@ class people::jabley::repos {
     'alphagov/govuk_frontend_toolkit',
     'alphagov/metadata-api',
     'alphagov/router',
+    'brendangregg/FlameGraph',
     'CausalityLtd/ponyc',
     'cdaniel/atlas2',
     'cloudfoundry/cli',

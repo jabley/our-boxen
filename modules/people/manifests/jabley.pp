@@ -107,6 +107,7 @@ class people::jabley(
                 && go get github.com/dvyukov/go-fuzz/go-fuzz-build \
                 && go get github.com/jabley/train/cmd/train \
                 && go get github.com/golang/lint/golint \
+                && go get github.com/uber/go-torch \
                 && (go get -u golang.org/x/blog || true)
                 '
   }
