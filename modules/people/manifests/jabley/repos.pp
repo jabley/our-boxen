@@ -168,6 +168,7 @@ class people::jabley::repos {
     'jabley/cf-metrics',
     'jabley/confnotes.club',
     'jabley/data-anonymization',
+    'jabley/docker-networking-repro',
     'jabley/elasticsearch',
     'jabley/elephantdb',
     'jabley/faraday_middleware',
