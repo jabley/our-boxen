@@ -14,5 +14,4 @@ class people::jabley::ssh_known_hosts {
 
     ssh_known_host { 'github.com': }
     ssh_known_host { 'gitlab.com': }
-    ssh_known_host { 'gitlab.office.moo.com': }
 }
