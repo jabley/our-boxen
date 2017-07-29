@@ -130,6 +130,7 @@ class people::jabley::repos {
     'jabley/bloog',
     'jabley/bob-walker',
     'jabley/BoilingFrogs',
+    'jabley/brotli',
     'jabley/campfire-plugin',
     'jabley/capybara',
     'jabley/cf-metrics',
