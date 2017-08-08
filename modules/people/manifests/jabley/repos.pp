@@ -42,6 +42,7 @@ class people::jabley::repos {
     "${people::jabley::home_projects}/spf13",
     "${people::jabley::home_projects}/terraform-providers",
     "${people::jabley::home_projects}/twitter",
+    "${people::jabley::home_projects}/uwiger",
     "${people::jabley::home_projects}/VividCortex",
     ]:
     ensure => directory,
@@ -193,6 +194,7 @@ class people::jabley::repos {
     'terraform-providers/terraform-provider-fastly',
     'twitter/finagle',
     'twitter/scala_school',
+    'uwiger/pots',
     'VividCortex/go-database-sql-tutorial',
     ]:
   }
