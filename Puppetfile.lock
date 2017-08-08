@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (3.0.3)
+    gcc (3.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -140,7 +140,7 @@ DEPENDENCIES
   concat (= 2.2.0)
   dnsmasq (= 2.0.2)
   foreman (= 1.2.0)
-  gcc (= 3.0.3)
+  gcc (= 3.0.4)
   git (= 2.12.2)
   go (= 2.1.0)
   homebrew (= 2.1.0)
