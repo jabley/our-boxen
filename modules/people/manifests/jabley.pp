@@ -125,6 +125,19 @@ class people::jabley(
 #    value => '16384'
 #  }
 
+  # Configure for Go contributions as per https://docs.google.com/presentation/d/1ap2fycBSgoo-jCswhK9lqgCIFroE1pYpsXC1ffYBCq4/edit
+  repository { "${people::jabley::home}/golang":
+    ensure => present,
+    source => "https://go.googlesource.com/go",
+    extra  => [
+      '--depth 1',
+    ],
+  } -> exec { 'install_go_contrib_tools':
+    environment => ["GOPATH=${home}/gocode"],
+    command     => 'go get -u golang.org/x/tools/cmd/go-contrib-init \
+    ',
+  }
+
   # Temporary workplace to remove packages from all machines.
   package { [
       'nasm',
