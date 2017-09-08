@@ -108,7 +108,8 @@ class people::jabley(
                 && go get github.com/jabley/train/cmd/train \
                 && go get github.com/golang/lint/golint \
                 && go get github.com/uber/go-torch \
-                && (go get -u golang.org/x/blog || true)
+                && (go get -u golang.org/x/blog || true) \
+                && go get rsc.io/benchstat \
                 '
   }
 
