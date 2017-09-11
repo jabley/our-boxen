@@ -72,6 +72,7 @@ boxen::personal::homebrew_packages:
   # Other stuff
   - ansible
   - bash-completion
+  - cfssl
   - docker-machine-driver-xhyve
   - go
   - gpg-agent
@@ -129,6 +130,7 @@ boxen::personal::osx_apps:
   - flux
   - get-iplayer-automator
   - google-chrome
+  - google-cloud-sdk
   - google-drive
   - gpgtools
   - imagealpha
