@@ -142,6 +142,7 @@ class people::jabley::repos {
     'jabley/confnotes.club',
     'jabley/data-anonymization',
     'jabley/docker-networking-repro',
+    'jabley/dockerfiles',
     'jabley/elasticsearch',
     'jabley/elephantdb',
     'jabley/faraday_middleware',
