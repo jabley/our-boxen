@@ -45,6 +45,7 @@ boxen::personal::homebrew_packages:
   - ocaml
   - oniguruma
   - openconnect
+  - openssl-osx-ca
   - pass
   - pcre
   - pidof

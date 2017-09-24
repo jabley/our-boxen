@@ -56,6 +56,7 @@ class people::jabley(
   homebrew::tap { 'caskroom/versions': }
   homebrew::tap { 'cloudfoundry/tap': }
   homebrew::tap { 'go-delve/delve': }
+  homebrew::tap { 'raggi/ale': }
 
  include mas
 
