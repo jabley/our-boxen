@@ -192,6 +192,7 @@ class people::jabley::repos {
     'kisielk/errcheck',
     'mattbostock/sshkeycheck',
     'ministryofjustice/laa-hosting-architectural-decisions',
+    'ministryofjustice/laa-hosting-migration-aws-setup',
     'MoarVM/MoarVM',
     'mozilla-services/heka',
     'Netflix/zuul',
