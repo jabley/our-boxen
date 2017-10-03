@@ -50,6 +50,7 @@ boxen::personal::homebrew_packages:
   - pass
   - pcre
   - pidof
+  - plantuml
   - pkg-config
   - potrace
   - postgresql
