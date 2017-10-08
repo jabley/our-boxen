@@ -11,6 +11,7 @@ boxen::personal::homebrew_packages:
   - bosh-cli
   - bosh-init
   - brotli
+  - buck
   - cabal-install
   - cdrtools
   - cf-cli

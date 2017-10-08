@@ -55,6 +55,7 @@ class people::jabley(
 
   homebrew::tap { 'caskroom/versions': }
   homebrew::tap { 'cloudfoundry/tap': }
+  homebrew::tap { 'facebook/fb': }
   homebrew::tap { 'go-delve/delve': }
   homebrew::tap { 'raggi/ale': }
 
