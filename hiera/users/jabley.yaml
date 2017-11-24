@@ -125,6 +125,7 @@ boxen::personal::osx_apps:
   - atom
   - bluemix-cli
   - calibre
+  - dash
   - docker
   - dropbox
   - emacs
