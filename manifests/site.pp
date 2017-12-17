@@ -63,7 +63,7 @@ node default {
   }
 
   # default ruby versions
-  ruby::version { '2.4.0': }
+  ruby::version { '2.4.1': }
 
   # common, useful packages
   package {

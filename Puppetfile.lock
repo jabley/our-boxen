@@ -6,17 +6,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.12.0)
+    boxen (3.13.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
   specs:
-    brewcask (0.0.9)
+    brewcask (0.0.10)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    dnsmasq (2.0.2)
+    dnsmasq (2.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -46,12 +46,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.4.4)
+    hub (1.4.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.7.0)
+    nginx (1.9.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -86,7 +86,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.5.7)
+    ruby (8.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -135,27 +135,27 @@ GITHUBTARBALL
 
 DEPENDENCIES
   android (= 1.6.0)
-  boxen (= 3.12.0)
-  brewcask (= 0.0.9)
+  boxen (= 3.13.0)
+  brewcask (= 0.0.10)
   concat (= 2.2.0)
-  dnsmasq (= 2.0.2)
+  dnsmasq (= 2.0.4)
   foreman (= 1.2.0)
   gcc (= 3.0.4)
   git (= 2.14.1)
   go (= 2.1.0)
   homebrew (= 2.1.0)
-  hub (= 1.4.4)
+  hub (= 1.4.5)
   inifile (= 1.4.1)
   mas (= 1.0.0)
   module_data (= 0.0.4)
-  nginx (= 1.7.0)
+  nginx (= 1.9.0)
   nodejs (= 5.0.9)
   openssl (= 1.0.0)
   osx (= 2.8.0)
   phantomjs (= 3.0.0)
   pkgconfig (= 1.0.0)
   repository (= 2.4.1)
-  ruby (= 8.5.7)
+  ruby (= 8.6.0)
   stdlib (= 4.7.0)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
