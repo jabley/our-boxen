@@ -205,6 +205,7 @@ class people::jabley::repos {
     'ministryofjustice/laa-infoX-application',
     'ministryofjustice/laa-maat-application',
     'ministryofjustice/laa-mlra-application',
+    'ministryofjustice/laa-saml-mock',
     'MoarVM/MoarVM',
     'mozilla-services/heka',
     'Netflix/zuul',
