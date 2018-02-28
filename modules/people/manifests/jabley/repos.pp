@@ -177,6 +177,7 @@ class people::jabley::repos {
     'jabley/project-status',
     'jabley/puppet-shelf',
     'jabley/puppet',
+    'jabley/rate-limit',
     'jabley/requests',
     'jabley/spdy',
     'jabley/stripe-ctf-2.0',
