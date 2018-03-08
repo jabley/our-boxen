@@ -6,6 +6,7 @@ class people::jabley::repos {
   file {[
     "${people::jabley::home_projects}/adrianco",
     "${people::jabley::home_projects}/alphagov",
+    "${people::jabley::home_projects}/apache",
     "${people::jabley::home_projects}/brendangregg",
     "${people::jabley::home_projects}/camlistore",
     "${people::jabley::home_projects}/CausalityLtd",
@@ -111,6 +112,7 @@ class people::jabley::repos {
     'alphagov/cdn-acceptance-tests',
     'alphagov/govuk_frontend_toolkit',
     'alphagov/metadata-api',
+    'apache/tomcat85',
     'alphagov/router',
     'brendangregg/FlameGraph',
     'CausalityLtd/ponyc',
