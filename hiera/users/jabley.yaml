@@ -164,6 +164,7 @@ boxen::personal::osx_apps:
   - virtualbox-extension-pack
   - visual-studio-code
   - vitalsource-bookshelf
+  - vmware-fusion8
   - xbench
 
 hub::alias_hub_to_git: false
