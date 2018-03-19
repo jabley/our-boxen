@@ -169,6 +169,7 @@ class people::jabley::repos {
     'jabley/HaskellMOOC',
     'jabley/hello-go-web',
     'jabley/homebrew',
+    'jabley/homebrew-wrk2',
     'jabley/httptraced',
     'jabley/jargone',
     'jabley/jamesabley.com',
