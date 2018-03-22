@@ -5,6 +5,47 @@ Compression yes
 
 IdentityFile ~/.ssh/id_rsa
 
+Host laa-shared-services-bastion
+  User ec2-user
+  IdentityFile ~/.ssh/laa-shared-services-bastion
+  HostName 35.176.251.101
+
+Host laa-staging-bastion
+  User ec2-user
+  IdentityFile ~/.ssh/laa-staging-bastion
+  HostName 10.204.7.66
+  ProxyJump laa-shared-services-bastion
+
+Host laa-staging-tooling
+  User ec2-user
+  IdentityFile ~/.ssh/laa-staging-bastion
+  HostName 10.204.10.154
+  ProxyJump laa-shared-services-bastion
+
+Host laa-staging-db-tier
+  User ec2-user
+  IdentityFile ~/.ssh/laa-staging-bastion
+  HostName 10.204.1.126
+  ProxyJump laa-shared-services-bastion
+
+Host laa-production-bastion
+  User ec2-user
+  IdentityFile ~/.ssh/laa-production-bastion
+  HostName 10.205.7.70
+  ProxyJump laa-shared-services-bastion
+
+Host laa-production-tooling
+  User ec2-user
+  IdentityFile ~/.ssh/laa-production-bastion
+  HostName 10.205.10.141
+  ProxyJump laa-shared-services-bastion
+
+Host laa-production-db-tier
+  User ec2-user
+  IdentityFile ~/.ssh/laa-production-bastion
+  HostName 10.205.3.57
+  ProxyJump laa-shared-services-bastion
+
 #
 # Cornerhost
 #
