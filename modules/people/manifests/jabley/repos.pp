@@ -227,6 +227,7 @@ class people::jabley::repos {
     'rust-lang/rust',
     'spf13/hugo',
     'spring-projects/spring-boot',
+    'spring-projects/spring-framework',
     'terraform-providers/terraform-provider-fastly',
     'twitter/finagle',
     'twitter/scala_school',
