@@ -114,6 +114,7 @@ class people::jabley::repos {
     'alphagov/govuk_frontend_toolkit',
     'alphagov/metadata-api',
     'apache/tomcat85',
+    'apache/tomee',
     'alphagov/router',
     'brendangregg/FlameGraph',
     'CausalityLtd/ponyc',
