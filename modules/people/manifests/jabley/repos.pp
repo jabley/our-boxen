@@ -207,6 +207,7 @@ class people::jabley::repos {
     'ministryofjustice/laa-ccms',
     'ministryofjustice/laa-ccr-application',
     'ministryofjustice/laa-ccr-db-scripts',
+    'ministryofjustice/laa-data-migration-ddl',
     'ministryofjustice/laa-hosting-architectural-decisions',
     'ministryofjustice/laa-hosting-migration-aws-setup',
     'ministryofjustice/laa-infoX-application',
