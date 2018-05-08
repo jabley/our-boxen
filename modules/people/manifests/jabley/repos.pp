@@ -4,6 +4,7 @@ class people::jabley::repos {
   include people::jabley::ssh_known_hosts
 
   file {[
+    "${people::jabley::home_projects}/AcasDigital",
     "${people::jabley::home_projects}/adrianco",
     "${people::jabley::home_projects}/alphagov",
     "${people::jabley::home_projects}/apache",
@@ -110,6 +111,8 @@ class people::jabley::repos {
   }
 
   github {[
+    'AcasDigital/acas-beta',
+    'AcasDigital/acas-component-library',
     'alphagov/cdn-acceptance-tests',
     'alphagov/govuk_frontend_toolkit',
     'alphagov/metadata-api',
