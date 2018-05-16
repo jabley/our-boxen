@@ -103,6 +103,7 @@ boxen::personal::homebrew_packages:
   - tree
   - tmux
   - vegeta
+  - wireguard-tools
   - wrk
   - xhyve
   - youtube-dl
