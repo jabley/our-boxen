@@ -206,6 +206,7 @@ class people::jabley::repos {
     'ministryofjustice/ccr',
     'ministryofjustice/laa-BenefitChecker-2.0',
     'ministryofjustice/laa-benefitchecker-application',
+    'ministryofjustice/laa-cccd-data-injection-batch',
     'ministryofjustice/laa-cclf-application',
     'ministryofjustice/laa-ccms',
     'ministryofjustice/laa-ccr-application',
