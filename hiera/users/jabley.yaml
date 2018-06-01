@@ -90,6 +90,7 @@ boxen::personal::homebrew_packages:
   - leiningen
   - lynx
   - nmap
+  - oath-toolkit
   - p7zip
   - packer
   - parallel
