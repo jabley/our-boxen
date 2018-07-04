@@ -16,6 +16,7 @@ boxen::personal::homebrew_packages:
   - cdrtools
   - cf-cli
   - cloc
+  - clojure
   - cmake
   - cpanminus
   - dos2unix
